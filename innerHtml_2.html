@@ -1,0 +1,25 @@
+
+<html>
+    <body>
+    
+    <p id="titulo">Ejemplo de InnerHtml con Onclick...</p>
+    <p id="boton">Dale click y mostrare su poder !..</p>
+    
+    <script>//dentro de script hago codigo Javascript
+    
+    function myFunction() {
+      document.getElementById("titulo").innerHTML = "Me Clikeaste, ves el Poder ?";
+    }
+    
+    document.getElementById("boton").onclick = function() {
+      myFunction()
+    }
+      //es mejor: .onclick = () => myFunction()    esto es "function arrow"
+    
+    
+    </script>
+    
+    </body>
+    </html>
+    
+    
